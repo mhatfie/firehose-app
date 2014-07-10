@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20140706183547) do
   enable_extension "plpgsql"
 
   create_table "pics", force: true do |t|
-    t.integer  "Lesson"
+    t.integer  "lesson"
     t.string   "emotion"
     t.text     "learned"
     t.datetime "created_at"
